@@ -18,6 +18,8 @@ include(
 
 DEBUG = True
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ["*"]
+
 
 #SECRET_KEY = os.environ.get('SECRET_KEY', default=None),
 SECRET_KEY = 'django-insecure--d59p3^1=pq%+do05-xzt1ol=q4zl*mmrdd77x*6d*tp7&20oq'
