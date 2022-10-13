@@ -1,10 +1,28 @@
 # metashop
- 
+
 Тестовое задание для Meta Sharks:
 
-есть два сценария запуска проекта, через 
+Посмотрите Видео презентацию тестового:
+
+https://www.loom.com/share/c00fbfe7ccd6434fa4c97f051d4c14b2
+
+---
+
+Весь проект это API вымышленного магазина, документация к API лежит в excel файле
+
+"MetaShop_documentation.xlsx"
+
+так же для удобства она залита в онлайн:
+
+https://docs.google.com/spreadsheets/d/1Z6O848xlZhOt70wczVjJXTntl4Z5aEl0s5rK7ppsuYU/
+
+---
+
+есть два сценария запуска проекта, через
+
 1) docker с postgres
 2) через virtual environment с sqlite3
+
 ---
 
 Как запустить через Docker:
@@ -36,6 +54,7 @@
 ---
 
 как запустить через виртуальное окружение (linux, macos):
+
 1) в корневой папке создать виртуальное окружение:
 
 ~ python3 -m venv venv
@@ -59,12 +78,4 @@
 
 ---
 
-Весь проект это API вымышленного магазина, документация к API лежит в excel файле
 
-"MetaShop_documentation.xlsx"
-
-так же для удобства она залита в онлайн:
-
-https://docs.google.com/spreadsheets/d/1Z6O848xlZhOt70wczVjJXTntl4Z5aEl0s5rK7ppsuYU/
-
----
